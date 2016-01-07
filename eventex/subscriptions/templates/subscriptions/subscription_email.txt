@@ -1,0 +1,11 @@
+Olá! Me da dindin!!
+
+Nome: {{ name }}
+CPF: {{ cpf }}
+Email: {{ email }}
+Telefone: {{ phone }}
+
+Em até 48 horas all your base bellong to us!!
+
+Cya,
+Jacuzzi.
