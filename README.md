@@ -13,13 +13,13 @@ Sistema de Eventos encomendado pela Morena.
 
 ```
 console
-git clone git@github.com:fabricio-2Uu/eventex.git wttd;
-cd wttd;
-python -m venv .wttd;
-call .wttd/Scripts/activate.bat;
-pip install -r requirements.txt;
-cp contrib/env-sample .env;
-python manage.py test;
+git clone git@github.com:fabricio-2Uu/eventex.git wttd
+cd wttd
+python -m venv .wttd
+call .wttd/Scripts/activate.bat
+pip install -r requirements.txt
+cp contrib/env-sample .env
+python manage.py test
 ```
 
 ## Como fazer o deploy?
@@ -32,10 +32,10 @@ python manage.py test;
 6. Envie o código para o heroku.
 
 ```Console
-heroku create minhainstancia;
-heroku config:push;
-heroku congif:set SECRET_KEY='python contrib/secret_gen.py';
-heroku confir:set DEBUG=False;
-#configuro o email;
-git push heroku master --force;
+heroku create minhainstancia
+heroku config:push
+heroku congif:set SECRET_KEY='python contrib/secret_gen.py'
+heroku confir:set DEBUG=False
+#configuro o email
+git push heroku master --force
 ```
