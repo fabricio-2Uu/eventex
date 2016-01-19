@@ -23,5 +23,5 @@ from eventex.subscriptions.views import subscribe
 urlpatterns = [
     url(r'^$', home),
     url(r'^inscricao/$', subscribe),
-    url(r'^admin/', include(admin.site.urls)), #login=admin senha=superadmin email=admin@admin.com
+    url(r'^admin/', include(admin.site.urls)), #login=admin senha=superadmin email=admin@admin.com, heroku: login=moreno, senha=supermorenao, email=moreno@eventex.com
 ]
